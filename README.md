@@ -37,3 +37,8 @@ too e.g adding the script to `/etc/update-motd.d` which could be simpler.
 ## Troubleshooting
 If you're using ZSH and the message isn't showing up, I'd try putting the script
 into `/etc/update-motd.d` or just sourcing it from `~/.zlogin` or `~/.zshrc`
+
+## Happy Pride!
+The week of rapgamejusticekennedy's birth was the week the supreme court ruled
+for marriage equality! My laptop is already rapgameruthbaderginsburg so I had to
+come up with another name :)
