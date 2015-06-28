@@ -9,6 +9,9 @@ too...](screenshot.png)
 
 ## Install
 
+Note: This is an opinionated install. You can achieve installation in other ways
+too e.g adding the script to `/etc/update-motd.d` which could be simpler.
+
 1. Copy `dynmotd` to `/usr/local/bin`
 2. `chmod +x /usr/local/bin/dynmotd`
 3. Disable `/etc/motd` by modifying `/etc/ssh/sshd_config` -- set the following:
@@ -30,3 +33,7 @@ too...](screenshot.png)
    ```
    /usr/local/bin/dynmotd
    ```
+
+## Troubleshooting
+If you're using ZSH and the message isn't showing up, I'd try putting the script
+into `/etc/update-motd.d` or just sourcing it from `~/.zlogin` or `~/.zshrc`
